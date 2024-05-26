@@ -8,7 +8,7 @@ export default function Home() {
           <div className={`space-y-5`}>
               <div className={`space-y-1 text-zinc-50 text-2xl md:text-5xl`}>
                   <p>Hi,</p>
-                  <p>I'm <span className={`font-bold`}>Jamie,</span></p>
+                  <p>I&apos;m <span className={`font-bold`}>Jamie,</span></p>
                   <p>Fullstack Web Developer<span className={`font-bold`}>.</span></p>
               </div>
               <Button className={`flex gap-2`} onClick={() => console.log('hheh')}>
