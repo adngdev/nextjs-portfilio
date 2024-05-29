@@ -33,7 +33,7 @@ const Page = () => {
                 <div className={`w-full h-[1px] bg-zinc-600`} />
                 <div className={`space-y-1`}>
                     <p className={`text-lg`}>Hello :)</p>
-                    <p>I'm Jamie from Vietnam and currently living in Melbourne.</p>
+                    <p>I&apos;m Jamie from Vietnam and currently living in Melbourne.</p>
                 </div>
                 <div>
                     <p className={`text-lg`}>What I Can Do</p>
