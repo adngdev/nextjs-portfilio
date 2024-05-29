@@ -21,7 +21,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
                 <div className={`w-full h-full px-5 pt-20 pb-10`}>
                     {children}
                 </div>
-                <Image className={`absolute w-full h-full object-cover -z-10`} src={bgImg} alt={`background-img`} />
+                <Image className={`absolute w-full h-full object-cover -z-10`} src={bgImg} alt={`background-img`} priority={true} />
             </body>
         </html>
     );
