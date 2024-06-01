@@ -87,3 +87,7 @@
 .animate-slide-right {
   animation: slide-right 0.2s ease-in-out;
 }
+
+.bg-split {
+  background: linear-gradient(to bottom, #3776AB 50%, #F7DF1E 50%);
+}

@@ -18,7 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <html lang="en">
             <body className={`relative h-screen flex  ${poppins.className}`}>
                 <Sidebar />
-                <div className={`w-full h-full px-5 pt-20 pb-10`}>
+                <div className={`w-full h-full px-5 pt-20 pb-10 overflow-y-auto`}>
                     {children}
                 </div>
                 <Image className={`absolute w-full h-full object-cover -z-10`} src={bgImg} alt={`background-img`} priority={true} />
