@@ -16,10 +16,10 @@ export const metadata: Metadata = {title: 'Homepage' };
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
     return (
         <html lang="en">
-            <body className={`relative h-screen flex  ${poppins.className}`}>
+            <body className={`relative h-screen flex ${poppins.className}`}>
                 <Sidebar />
-                <div className={`w-full h-full px-5 pt-20 pb-10 overflow-y-auto`}>
-                    {children}
+                <div className={`pt-16 lg:pt-10 w-full`}>
+                    <div className={`w-full h-full px-5 overflow-y-auto no-scrollbar`}>{children}</div>
                 </div>
                 <Image className={`absolute w-full h-full object-cover -z-10`} src={bgImg} alt={`background-img`} priority={true} />
             </body>

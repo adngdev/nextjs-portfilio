@@ -59,7 +59,13 @@ const config = {
           js: '#F7DF1E',
           ts: '#3178C6',
           python: '#3776AB',
-          node: '#5FA04E'
+          node: '#5FA04E',
+          csharp: '#512BD4',
+          html: '#E34F26',
+          php: '#777BB4',
+          react: '#61DAFB',
+          django: '#092E20',
+          tailwind: '#06B6D4'
         }
       },
       borderRadius: {

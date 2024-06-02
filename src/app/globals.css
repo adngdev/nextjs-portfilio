@@ -91,3 +91,14 @@
 .bg-split {
   background: linear-gradient(to right, #3776AB 50%, #F7DF1E 50%);
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

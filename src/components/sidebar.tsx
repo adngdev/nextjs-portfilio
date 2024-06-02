@@ -23,7 +23,7 @@ const Sidebar = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </Button>
-            <div className={`fixed z-20 h-full w-full flex flex-col justify-between py-5 space-y-10 ${isMenuOpened ? 'animate-slide-right inset-0' : 'hidden'} bg-zinc-800/70 backdrop-blur`}>
+            <div className={`fixed z-20 h-full w-full flex flex-col justify-between py-5 space-y-10 ${isMenuOpened ? 'animate-slide-right inset-0' : 'hidden'} bg-zinc-800 backdrop-blur`}>
                 <div>
                     <Button onClick={() => handleRoute('/')} variant={`ghost`} size={`xl`} className={`w-full text-3xl text-zinc-50`}>
                         Home
